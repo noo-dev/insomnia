@@ -1,0 +1,23 @@
+_id: req_0ac754fbdea7451795bc22ad5bad2822
+type: Request
+parentId: wrk_39f59fbccc8e413b861df250a2f52ed1
+modified: 1693641395182
+created: 1693641352693
+url: ""
+name: Get User's todos
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: Insomnia/2023.5.7
+authentication: {}
+metaSortKey: -1693641352693
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

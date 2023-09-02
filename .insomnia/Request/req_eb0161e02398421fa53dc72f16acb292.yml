@@ -1,0 +1,28 @@
+_id: req_eb0161e02398421fa53dc72f16acb292
+type: Request
+parentId: wrk_39f59fbccc8e413b861df250a2f52ed1
+modified: 1693642855809
+created: 1693642276712
+url: localhost:8082/api/todos/1
+name: Get Todo by ID
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: Insomnia/2023.5.7
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: true
+  username: dfsadf
+  password: asdfsdf
+metaSortKey: -1693642276712
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

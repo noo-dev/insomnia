@@ -1,0 +1,23 @@
+_id: req_459d325e10e04553b8a697b5d172a078
+type: Request
+parentId: wrk_39f59fbccc8e413b861df250a2f52ed1
+modified: 1693643572390
+created: 1693643086005
+url: ""
+name: Delete Todo
+description: ""
+method: POST
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: Insomnia/2023.5.7
+authentication: {}
+metaSortKey: -1693643086005
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

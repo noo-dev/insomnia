@@ -1,0 +1,31 @@
+_id: req_bb3a530070804b43a4086430254694d1
+type: Request
+parentId: wrk_39f59fbccc8e413b861df250a2f52ed1
+modified: 1693641684591
+created: 1693641327449
+url: localhost:8082/api/todos/
+name: Update Todo
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"DeletedAt": null,
+    	"title": "Go to supermarket"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: Insomnia/2023.5.7
+authentication: {}
+metaSortKey: -1693641327449
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

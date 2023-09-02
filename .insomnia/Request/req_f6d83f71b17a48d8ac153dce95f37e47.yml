@@ -1,0 +1,39 @@
+_id: req_f6d83f71b17a48d8ac153dce95f37e47
+type: Request
+parentId: wrk_39f59fbccc8e413b861df250a2f52ed1
+modified: 1693635560851
+created: 1693565026597
+url: localhost:8082/api/todos
+name: Get all todos
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_1986a89f6aa840ecb7c2d1ebded91191
+    name: apikey
+    value: eef3a9a7-e6aa-40bf-acf3-d66f3a4e7d1b
+    description: ""
+  - id: pair_4c51ad3334034041b9fb71806cf60ff2
+    name: text
+    value: Марено кафе москва
+    description: ""
+  - id: pair_fbdace2ab8a84f76bd8b56783d5655b2
+    name: lang
+    value: ru_RU
+    description: ""
+  - id: pair_26cffba238474e358ac43c3c649d9bd5
+    name: type
+    value: biz
+    description: ""
+headers:
+  - name: User-Agent
+    value: Insomnia/2023.5.6
+authentication: {}
+metaSortKey: -1693565026597
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
