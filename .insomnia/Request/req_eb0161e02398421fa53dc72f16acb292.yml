@@ -1,9 +1,9 @@
 _id: req_eb0161e02398421fa53dc72f16acb292
 type: Request
-parentId: wrk_39f59fbccc8e413b861df250a2f52ed1
-modified: 1693642855809
+parentId: fld_f7edbbd391284a208773d5a86686c272
+modified: 1693815506882
 created: 1693642276712
-url: localhost:8082/api/todos/1
+url: localhost:8082/api/todos/3
 name: Get Todo by ID
 description: ""
 method: GET
@@ -18,7 +18,7 @@ authentication:
   disabled: true
   username: dfsadf
   password: asdfsdf
-metaSortKey: -1693642276712
+metaSortKey: -1693815497562
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

@@ -1,19 +1,19 @@
 _id: req_459d325e10e04553b8a697b5d172a078
 type: Request
-parentId: wrk_39f59fbccc8e413b861df250a2f52ed1
-modified: 1693643572390
+parentId: fld_f7edbbd391284a208773d5a86686c272
+modified: 1693825119050
 created: 1693643086005
-url: ""
+url: localhost:8082/api/todos/4
 name: Delete Todo
 description: ""
-method: POST
+method: DELETE
 body: {}
 parameters: []
 headers:
   - name: User-Agent
     value: Insomnia/2023.5.7
 authentication: {}
-metaSortKey: -1693643086005
+metaSortKey: -1693815497762
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

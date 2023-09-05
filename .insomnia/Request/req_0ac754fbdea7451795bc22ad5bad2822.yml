@@ -1,9 +1,9 @@
 _id: req_0ac754fbdea7451795bc22ad5bad2822
 type: Request
-parentId: wrk_39f59fbccc8e413b861df250a2f52ed1
-modified: 1693641395182
+parentId: fld_bc1dd643640844b68539add566afb2fe
+modified: 1693888370419
 created: 1693641352693
-url: ""
+url: localhost:8082/api/todos/user/1
 name: Get User's todos
 description: ""
 method: GET
@@ -12,8 +12,17 @@ parameters: []
 headers:
   - name: User-Agent
     value: Insomnia/2023.5.7
+    id: pair_c816686b34044ae19932e403a6d76269
+  - id: pair_c2c900db35b64ea78144f2fc33ac5764
+    name: Authorization
+    value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjEsInN1YiI6ImpvaG4gZG9lIiwiZXhwIjoxNjk0MTQ3NTIxfQ._KqyqQRz3bbIdu0ramA-aOkZOTpudhyiJXp_6bjO9Kw
+    description: ""
+  - id: pair_73b4b2b56775455bb00d3e86e3001383
+    name: X-User-Id
+    value: "1"
+    description: ""
 authentication: {}
-metaSortKey: -1693641352693
+metaSortKey: -1693815428034
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

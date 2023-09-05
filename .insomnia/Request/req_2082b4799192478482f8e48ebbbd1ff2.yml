@@ -1,19 +1,27 @@
 _id: req_2082b4799192478482f8e48ebbbd1ff2
 type: Request
-parentId: wrk_39f59fbccc8e413b861df250a2f52ed1
-modified: 1693643065644
+parentId: fld_f7edbbd391284a208773d5a86686c272
+modified: 1693825223431
 created: 1693643049635
-url: ""
+url: localhost:8082/api/todos/
 name: Create Todo
 description: ""
 method: POST
-body: {}
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"title": "first user todo",
+    	"user_id": 1
+    }
 parameters: []
 headers:
+  - name: Content-Type
+    value: application/json
   - name: User-Agent
     value: Insomnia/2023.5.7
 authentication: {}
-metaSortKey: -1693643049635
+metaSortKey: -1693815497962
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
