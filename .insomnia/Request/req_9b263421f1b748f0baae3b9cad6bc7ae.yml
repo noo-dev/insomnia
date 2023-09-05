@@ -1,0 +1,39 @@
+_id: req_9b263421f1b748f0baae3b9cad6bc7ae
+type: Request
+parentId: fld_bc1dd643640844b68539add566afb2fe
+modified: 1693888319528
+created: 1693816502959
+url: localhost:8082/api/users/login
+name: Login user
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"username": "john doe",
+    	"password": "12345"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: Insomnia/2023.5.7
+  - id: pair_ed7251f504cb44388442b001d820b4a4
+    name: ""
+    value: ""
+    description: ""
+  - id: pair_52ba2d5328104cb9955cf90337dc5072
+    name: ""
+    value: ""
+    description: ""
+authentication: {}
+metaSortKey: -1693383762603
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

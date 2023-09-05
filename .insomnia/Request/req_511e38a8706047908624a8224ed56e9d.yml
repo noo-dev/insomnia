@@ -1,0 +1,31 @@
+_id: req_511e38a8706047908624a8224ed56e9d
+type: Request
+parentId: fld_bc1dd643640844b68539add566afb2fe
+modified: 1693816558043
+created: 1693815427934
+url: localhost:8082/api/users/register
+name: Register user
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"username": "drake",
+    	"password": "12345d"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: Insomnia/2023.5.7
+authentication: {}
+metaSortKey: -1693815427934
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
