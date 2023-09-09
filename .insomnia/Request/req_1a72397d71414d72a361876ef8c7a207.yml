@@ -1,0 +1,36 @@
+_id: req_1a72397d71414d72a361876ef8c7a207
+type: Request
+parentId: fld_bcb96214e83d451a80f5479969059784
+modified: 1694178187136
+created: 1693917584100
+url: localhost:8083/api/products
+name: Get all products
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_eadf584866234200987f582e54a83005
+    name: limit
+    value: "2"
+    description: ""
+  - id: pair_c65afe6e1c9e41a9b41abd08cf2e57c7
+    name: page
+    value: "2"
+    description: ""
+  - id: pair_5915f4ba246349a1a3df6f54ff7b9309
+    name: skip
+    value: ""
+    description: ""
+    disabled: true
+headers:
+  - name: User-Agent
+    value: Insomnia/2023.5.7
+authentication: {}
+metaSortKey: -1694178178569
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,32 @@
+_id: req_5d741a3d03674b5a952b1619d8ef4967
+type: Request
+parentId: fld_bcb96214e83d451a80f5479969059784
+modified: 1694178189078
+created: 1693979048864
+url: localhost:8083/api/products
+name: Create product
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "milk updated",
+    	"description": "",
+    	"price": 21
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: Insomnia/2023.5.7
+authentication: {}
+metaSortKey: -1694178178669
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,31 @@
+_id: req_32b179a0144f49f994f592ab357b1d4f
+type: Request
+parentId: fld_bcb96214e83d451a80f5479969059784
+modified: 1694178190902
+created: 1694091607320
+url: localhost:8083/api/products/07e20994-559e-44bf-8baf-38e294036a14
+name: Update product
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "milk updated",
+    	"price": 210
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: Insomnia/2023.5.7
+authentication: {}
+metaSortKey: -1694178178769
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

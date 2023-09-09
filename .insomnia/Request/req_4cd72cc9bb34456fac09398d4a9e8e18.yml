@@ -1,0 +1,31 @@
+_id: req_4cd72cc9bb34456fac09398d4a9e8e18
+type: Request
+parentId: fld_afa257e05ea042c18213da3a535cf067
+modified: 1694178434919
+created: 1694178219139
+url: localhost:8083/api/users/register
+name: Register user
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email": "test@mail.ru",
+    	"password": "12345"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: Insomnia/2023.5.7
+authentication: {}
+metaSortKey: -1694178219139
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

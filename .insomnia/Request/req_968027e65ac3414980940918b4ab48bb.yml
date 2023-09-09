@@ -1,0 +1,23 @@
+_id: req_968027e65ac3414980940918b4ab48bb
+type: Request
+parentId: fld_bcb96214e83d451a80f5479969059784
+modified: 1694178178495
+created: 1694089833612
+url: localhost:8083/api/products/07e20994-559e-44bf-8baf-38e294036a14
+name: Get single product
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: Insomnia/2023.5.7
+authentication: {}
+metaSortKey: -1694178178469
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
