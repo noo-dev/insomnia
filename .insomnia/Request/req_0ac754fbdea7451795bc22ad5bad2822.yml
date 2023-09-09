@@ -1,9 +1,9 @@
 _id: req_0ac754fbdea7451795bc22ad5bad2822
 type: Request
 parentId: fld_bc1dd643640844b68539add566afb2fe
-modified: 1693888370419
+modified: 1693889574500
 created: 1693641352693
-url: localhost:8082/api/todos/user/1
+url: localhost:8082/api/todos/user/4
 name: Get User's todos
 description: ""
 method: GET
@@ -15,13 +15,19 @@ headers:
     id: pair_c816686b34044ae19932e403a6d76269
   - id: pair_c2c900db35b64ea78144f2fc33ac5764
     name: Authorization
-    value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjEsInN1YiI6ImpvaG4gZG9lIiwiZXhwIjoxNjk0MTQ3NTIxfQ._KqyqQRz3bbIdu0ramA-aOkZOTpudhyiJXp_6bjO9Kw
+    value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjQsInN1YiI6ImRyYWtlIiwiZXhwIjoxNjkzOTc1OTQwLCJpYXQiOjE2OTM4ODk1NDB9.Mh1BzHIEsr1VsV0bA4ZVT9AdvRkoaTQjd6MmddHIlic
     description: ""
+    disabled: false
   - id: pair_73b4b2b56775455bb00d3e86e3001383
-    name: X-User-Id
-    value: "1"
+    name: ""
+    value: ""
     description: ""
-authentication: {}
+    disabled: true
+authentication:
+  type: bearer
+  disabled: true
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjEsInN1YiI6ImpvaG4gZG9lIiwiZXhwIjoxNjkzOTc1Nzc5LCJpYXQiOjE2OTM4ODkzNzl9.KiR_aJ0aIuVvGHf-bIWffLMdTNAHGYPyKNQm3kDlU3Q
+  prefix: " "
 metaSortKey: -1693815428034
 isPrivate: false
 settingStoreCookies: true

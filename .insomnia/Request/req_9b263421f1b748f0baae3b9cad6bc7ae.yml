@@ -1,7 +1,7 @@
 _id: req_9b263421f1b748f0baae3b9cad6bc7ae
 type: Request
 parentId: fld_bc1dd643640844b68539add566afb2fe
-modified: 1693888319528
+modified: 1693889538972
 created: 1693816502959
 url: localhost:8082/api/users/login
 name: Login user
@@ -11,8 +11,8 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"username": "john doe",
-    	"password": "12345"
+    	"username": "drake",
+    	"password": "12345d"
     }
 parameters: []
 headers:
